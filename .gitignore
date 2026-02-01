@@ -1,0 +1,41 @@
+# CMake build directories
+/build/
+/build-*/
+cmake-build-*/
+
+# CMake and compiler-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+Makefile
+
+# Compiled binaries and objects
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+basic_scheduler
+priority_inversion
+
+# Debugging and crash artifacts
+core
+core.*
+*.dmp
+
+# IDE metadata
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
